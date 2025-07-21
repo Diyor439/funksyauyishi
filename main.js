@@ -59,7 +59,7 @@ const name3 = (ism) => {
 name3("Asilbek");
 
 
-function sharfi (sharfi) {
+function sharfi(sharfi) {
     console.log(`Sizni Ism Familyangiz: ${sharfi}`);
 }
 sharfi("Isafndiyor MUhammadjonov")
@@ -68,7 +68,7 @@ const sharfi2 = function (sharfi2) {
     console.log(`Sizni Ism Familyangiz: ${sharfi2}`);
 }
 
-sharfi2 ("Boburjon Olimov")
+sharfi2("Boburjon Olimov")
 
 const sharfi3 = (sharfi3) => {
     console.log(`Sizni Ism Familyangiz: ${sharfi3}`);
@@ -79,83 +79,83 @@ sharfi3("Ayubxon");
 function tortburchak(uzunlik, eni) {
     const P = 2 * (uzunlik + eni);
     console.log(`To‘rtburchak javobi: ${P}`);
-  }
-  
-  tortburchak(40, 30); 
+}
+
+tortburchak(40, 30);
 
 
-  const tortburchak2 = function(uzunlik, eni) {
+const tortburchak2 = function (uzunlik, eni) {
     const P = 2 * (uzunlik + eni);
     console.log(`To‘rtburchak javobi: ${P}`);
-  };
-  
-  tortburchak2(45, 100); 
+};
+
+tortburchak2(45, 100);
 
 
-  const tortburchak3 = (uzunlik, eni) => {
+const tortburchak3 = (uzunlik, eni) => {
     const P = 2 * (uzunlik + eni);
     console.log(`Sizning yoshingiz: ${P}`);
 };
-tortburchak3(120,314);
+tortburchak3(120, 314);
 
 
 function qiymatlar(a, b, c) {
     console.log(`1-qiymat: ${a}`);
     console.log(`2-qiymat: ${b}`);
     console.log(`3-qiymat: ${c}`);
-  }
-  
-  qiymatlar(10, 20, 30);
+}
 
-  const qiymatlar2 = function(a,b,c) {
+qiymatlar(10, 20, 30);
+
+const qiymatlar2 = function (a, b, c) {
     console.log(`4-qiymat: ${a}`);
     console.log(`5-qiymat: ${b}`);
     console.log(`6-qiymat: ${c}`);
-  }
-  
-  qiymatlar2(40,50,60)
+}
 
-  const qiymatlar3 = (a,b,c) => {
+qiymatlar2(40, 50, 60)
+
+const qiymatlar3 = (a, b, c) => {
     console.log(`7-qiymat: ${a}`);
     console.log(`8-qiymat: ${b}`);
     console.log(`9-qiymat: ${c}`);
-  }
-qiymatlar3(70,80,90)
+}
+qiymatlar3(70, 80, 90)
 
 
 
 function kvadrat(raqam) {
     console.log(`kvadrati: ${raqam * raqam}`);
-  }
-  
-  kvadrat(9); 
+}
 
-  const kvadrat2 = function (raqam) {
+kvadrat(9);
+
+const kvadrat2 = function (raqam) {
     console.log(`kvadrati: ${raqam * raqam}`);
-  };
-  
-  kvadrat2(99);
+};
 
-  const kvadrat3 = (raqam) => {
+kvadrat2(99);
+
+const kvadrat3 = (raqam) => {
     console.log(`kvadrati: ${raqam * raqam}`);
-  }
-  kvadrat3(999)
+}
+kvadrat3(999)
 
 
 
-  function mushuk(mushuk, yosh,) {
+function mushuk(mushuk, yosh,) {
     console.log(`Bu ${mushuk} ${yosh} yoshda. va oq rangda. `);
 }
 
 mushuk("mushuk", 3);
 
-const mushuk2 = function (it,yosh) {
+const mushuk2 = function (it, yosh) {
     console.log(`Bu ${it} ${yosh} yoshda. va qora rangda. `);
 }
 
-mushuk2 ("it",5)
+mushuk2("it", 5)
 
-const mushuk3 = (echki,yosh) => {
+const mushuk3 = (echki, yosh) => {
     console.log(`Bu ${echki} ${yosh} yoshda. va qora rangda. `);
 }
 
@@ -165,7 +165,7 @@ mushuk3("echki", 25)
 
 function hello(hello) {
     console.log("hello world-1");
-    
+
 }
 hello(hello)
 
@@ -203,9 +203,9 @@ const ismlar2 = function (ism1, ism2, ism3, ism4, ism5) {
     console.log(ism5);
 }
 
-ismlar2("Qulpiniso","Diyor","Nodir","Asrorbek","Muhammadziyo")
+ismlar2("Qulpiniso", "Diyor", "Nodir", "Asrorbek", "Muhammadziyo")
 
-  
+
 
 
 
