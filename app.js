@@ -21,7 +21,7 @@
 // };
 // age3(yosh3);
 
-export let a = +prompt("1-sonni kiriting:");
+// export let a = +prompt("1-sonni kiriting:");
 // let b = +prompt("2-sonni kiriting:");
 //   export function raqam(a, b) {
 //     console.log(`javob: ${a + b}`)
